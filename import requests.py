@@ -26,7 +26,7 @@ create_table_query = """
     CREATE TABLE IF NOT EXISTS tipo_de_cambio (
         fecha DATE,
         valor NUMERIC,
-        -- Puedes agregar más columnas según sea necesario
+        
     );
 """
 
