@@ -6,11 +6,11 @@ api_url = 'https://apis.datos.gob.ar/series/api/series/?ids=168.1_T_CAMBIOR_D_0_
 
 # Configuración de Redshift
 redshift_config = {
-    'dbname': 'data-engineer-database',
-    'user': 'samevesosa_coderhouse',
-    'password': 'kT8p4X4HuL',
-    'host': 'data-engineer-cluster.cyhh5bfevlmn.us-east-1.redshift.amazonaws.com',
-    'port': '5439',
+    'dbname': ',
+    'user': '',
+    'password': ',
+    'host': '',
+    'port': '',
 }
 
 # Obtener datos de la API
