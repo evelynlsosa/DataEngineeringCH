@@ -21,7 +21,7 @@ data = response.json()
 conn = psycopg2.connect(**redshift_config)
 cursor = conn.cursor()
 
-# Crear tabla en Redshift (ajustar tipos de datos según sea necesario)
+# Crear tabla en Redshift 
 create_table_query = """
     CREATE TABLE IF NOT EXISTS tipo_de_cambio (
         fecha DATE,
