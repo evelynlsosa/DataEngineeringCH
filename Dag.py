@@ -20,7 +20,7 @@ dag = DAG(
     schedule_interval=timedelta(days=1),  
 )
 
-# Definir la tarea que ejecuta tu script
+# Definir la tarea que ejecuta el script
 run_script_task = PythonOperator(
     task_id='run_script',
     python_callable=your_python_function, 
