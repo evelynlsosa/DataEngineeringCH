@@ -17,13 +17,13 @@ dag = DAG(
     'tu_dag',
     default_args=default_args,
     description='Ejecución de script en Docker',
-    schedule_interval=timedelta(days=1),  # Ajusta según tus necesidades
+    schedule_interval=timedelta(days=1),  
 )
 
 # Definir la tarea que ejecuta tu script
 run_script_task = PythonOperator(
     task_id='run_script',
-    python_callable=your_python_function,  # Sustituye por tu función real
+    python_callable=your_python_function, 
     dag=dag,
 )
 
