@@ -12,8 +12,8 @@ client_secret = "014FffaEb3A343b5A7243fF3D4625BE0"
 # Configuración de Amazon Redshift
 redshift_credentials = {
     "dbname": "tu_database",
-    "user": "samevesosa_coderhouse",
-    "password": "kT8p4X4HuL",
+    "user": "",
+    "password": "",
     "host": "tu_host_redshift",
     "port": "5439"
 }
